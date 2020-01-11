@@ -1,11 +1,10 @@
 PS：
 ================
-加入了Fastjson的gadget chain挖掘
-
-使用方式，main方法启动，启动参数：--config fastjson /xxxxx/xxxxx/xxxxx/xxxxx.jar /xxxxx/xxxxx/xxxxx/xxxxx2.jar /xxxxx/xxxxx/xxxxx/xxxxx3.jar
+--config fastjson /xxxxx/xxxxx/xxxxx/xxxxx.jar /xxxxx/xxxxx/xxxxx/xxxxx2.jar /xxxxx/xxxxx/xxxxx/xxxxx3.jar
 
 Gadget Inspector
 ================
+
 
 This project inspects Java libraries and classpaths for gadget chains. Gadgets chains are used to construct exploits for deserialization vulnerabilities. By automatically discovering possible gadgets chains in an application's classpath penetration testers can quickly construct exploits and application security engineers can assess the impact of a deserialization vulnerability and prioritize its remediation.
 
